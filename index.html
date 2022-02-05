@@ -7,14 +7,17 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="resources/css/style.css">
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </head>
     <body>        
         <header>
             <img src="resources/images/logo.png">
             <nav>
-                <p>Projects</p>
-                <p>Team</p>
-                <p>Contact</p>
+                <p id="text-menu">Projects</p>
+                <p id="text-menu">Team</p>
+                <p id="text-menu">Contact</p>
+                <p id="menu-icon" style="font-size: 2rem;"><ion-icon name="menu-outline"></ion-icon></p>
             <nav>
         </header>
         <section class="mission-container">
@@ -44,26 +47,33 @@
             <div class="team">
                 <div class="member one">
                     <img src="resources/images/portrait-man-one.png" alt="Picture of CEO of the company">
-                    <h2>Paul Johnson</h2>
-                    <p>CEO</p>
+                    <h2>Paul Johnson </h2>
+                    <p>Chief Executive Office</p>
+                    <h2><a href="https://au.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon></a></h2>
                 </div>
                 <div class="member two">
                     <img src="resources/images/portrait-man-two.png" alt="Picture of CEO of the company">
                     <h2>Joseph Arlington</h2>
-                    <p>CFO</p>
+                    <p>Chief Financial Officer</p>
+                    <h2><a href="https://au.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon></a></h2>
                 </div>
                 <div class="member three">
                     <img src="resources/images/portrait-man-three.png" alt="Picture of CEO of the company">
                     <h2>Jacob Pones</h2>
-                    <p>CTO</p>
+                    <p>Chief Technical Officer</p>
+                    <h2><a href="https://au.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon></a></h2>
                 </div>
             </div>
         </section>
         <section class="contact-container">
-            <h1>Contact</h1>
-            <p>94 Clampton Stn, New Crete</p>
-            <p>0783 193 231</p>
-            <p>posterus@email.com</p>
+            <div class="header">
+                <h1>Contact</h1>
+            </div>
+            <div class="text">
+                <p>94 Clampton Stn, New Crete</p>
+                <p>0783 193 231</p>
+                <p>posterus@email.com</p>
+            </div>
         </section>
         <footer>
             <p>&copy; Posterus 2022</p>

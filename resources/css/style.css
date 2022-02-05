@@ -27,8 +27,7 @@ header {
     position: fixed;
     background-color: rgb(0, 0, 0);
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
 header img {
@@ -44,6 +43,20 @@ nav p {
     color: white;
     margin: 0 30px;
     font-size: 1.25rem;
+}
+
+#menu-icon {
+    display:none;
+}
+
+@media only screen and (max-width: 660px) {
+    #menu-icon {
+        display: block;
+    }
+
+    #text-menu {
+        display: none;
+    }
 }
 
 .mission-container {
@@ -163,4 +176,47 @@ nav p {
     height: 400px;
     width: 400px;
     border-radius: 50%;
+}
+
+a {
+    color: white;
+}
+
+
+/*contact section*/
+.contact-container {
+    background-image: url(../images/map.PNG);
+    display: flex;
+    background-position:center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 600px;
+    flex-direction: column;
+}
+
+.contact-container h1, .contact-container p{
+    text-align: center;
+}
+
+.contact-container h1 {
+    font-size: 36px;
+}
+
+.contact-container .header {
+    text-align: center;
+}
+
+.contact-container .text {
+    text-align: center;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 2px;
 }
