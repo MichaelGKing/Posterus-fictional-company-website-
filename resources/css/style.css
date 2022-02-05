@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "D-Din";
+    src: url("../font/d-din/D-DIN.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "D-Din";
+    font-weight: bold;
+    src: url("../font/d-din/D-DIN-Bold.otf") format("opentype");
+}
+
+
+
+body {
+    font-family: "D-Din";
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+    height: 69px;
+    display: inline-flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header img {
+    margin-left: 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav p {
+    color: white;
+    margin: 0 30px;
+    font-size: 1.25rem;
+}
+
+.mission-container {
+    background-image: url("../images/picture-of-earth.jpg");
+    min-height: 600px;
+    background-position:center;
+    background-size: cover;
+    margin-top: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.mission-container h1 {
+    font-size: 72px;
+}
+
+/*projects section*/
+
+
+.projects-container h1 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project {
+    height: 300px;
+    text-align: center;
+    margin: 3px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project p {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 20px;
+}
+
+.project.one {
+    width: 400px;
+    background-image: url("../images/rocket.jpg");
+    flex-shrink: 1;
+}
+
+.project.two {
+    width: 600px;
+    background-image: url("../images/launch-site.jpg");
+    flex-shrink: 3;
+}
+
+.project.three {
+    width: 600px;
+    background-image: url("../images/satellite.jpg");
+    flex-shrink: 3;
+}
+
+.project.four {
+    width: 400px;
+    background-image: url("../images/rover.jpg");
+    flex-shrink: 1;
+}
+
+@media only screen and (max-width: 713px) {
+    .projects {
+        flex-wrap: wrap;
+    }
+    
+    .project.two, .project.one, .project.three, .project.four {
+        width: 100%;
+    }
+}
+
+/*team*/
+.team-container h1 {
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 100px;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.team-container {
+    background-color: black;
+    color: white;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.member p, .member h2 {
+    text-align: center;
+}
+
+.member {
+    margin-bottom: 50px;
+}
+
+.team img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}

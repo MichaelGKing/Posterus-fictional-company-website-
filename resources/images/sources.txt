@@ -1,28 +1,11 @@
 picture-of-earth: 
 	<a href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/s/photos/space?	utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-rocket:
-	Photo by <a href="https://unsplash.com/@billjelen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bill Jelen</a> on <a href="https://unsplash.com/s/photos/rocket?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-	
-launch site:
-	Photo by <a href="https://unsplash.com/@spacex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">SpaceX</a> on <a 	href="https://unsplash.com/s/photos/rocket?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-satellite:
-	Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/s/photos/satellite?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-
-rover:
-	Photo by <a href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NASA</a> on <a href="https://unsplash.com/s/photos/rover?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
-  
-
 portrait-man-one:
 	Photo by <a href="https://unsplash.com/@austin_wade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Austin Wade</a> on <a 	href="https://unsplash.com/s/photos/portrait?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 portrait-man-two:
-	Photo by <a href="https://unsplash.com/@funpictures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Robert Godwin</a> on <a href="https://unsplash.com/s/photos/portrait?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 portrait-man-three:
-	Photo by <a href="https://unsplash.com/@juricakoletic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jurica Koletić</a> on <a href="https://unsplash.com/s/photos/portrait?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-  
+
+map:
